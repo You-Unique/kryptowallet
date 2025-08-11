@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:kryptowallet/screens/new_user_screen/new_user_screen1.dart';
-import 'package:kryptowallet/screens/new_user_screen/new_user_screen2.dart';
-import 'package:kryptowallet/screens/new_user_screen/new_user_screen3.dart';
-import 'package:kryptowallet/screens/sign_up_screen/sign_up_screen.dart';
+import 'package:kryptowallet/screens/dark_mode/new_user_screen/new_user_screen1.dart';
+import 'package:kryptowallet/screens/dark_mode/new_user_screen/new_user_screen2.dart';
+import 'package:kryptowallet/screens/dark_mode/new_user_screen/new_user_screen3.dart';
+import 'package:kryptowallet/screens/dark_mode/sign_up_screen/sign_up_screen.dart';
 import 'package:kryptowallet/shared_utils/button.dart';
 import 'package:kryptowallet/shared_utils/extension.dart';
 import 'package:kryptowallet/shared_utils/primary_colour.dart';
