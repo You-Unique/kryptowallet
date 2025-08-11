@@ -84,8 +84,8 @@ class _NewUserMainScreenState extends State<NewUserMainScreen> {
             ),
             60.vSpace,
             Button(
-              width: 300,
-              height: 56,
+              width: ScreenSizes.width(context) * 0.7,
+              height: 60,
               buttonName: currentIndex == 2 ? 'Get Started' : 'Next',
               fontsize: 20,
               onTap: () {

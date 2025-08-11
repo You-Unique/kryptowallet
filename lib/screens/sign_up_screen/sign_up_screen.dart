@@ -2,6 +2,7 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:kryptowallet/google/google_sign_up_button.dart';
 import 'package:kryptowallet/screens/sign_in_screen/sign_in_screen.dart';
+import 'package:kryptowallet/screens/sign_up_screen/email_authentication_screen.dart';
 import 'package:kryptowallet/shared_utils/button.dart';
 import 'package:kryptowallet/shared_utils/extension.dart';
 import 'package:kryptowallet/shared_utils/input_field.dart';
@@ -97,7 +98,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 style: TextStyle(
                   fontWeight: FontWeight.w900,
                   color: Colors.white,
-                  fontSize: 24,
+                  fontSize: 34,
                 ),
               ),
               30.vSpace,
@@ -200,7 +201,15 @@ class _SignUpScreenState extends State<SignUpScreen> {
               Button(
                 buttonName: 'Sign Up',
                 fontsize: 20,
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return EmailAuthenticationScreen();
+                      },
+                    ),
+                  );
+                },
                 buttonColor: KryptoWalletColor2.primaryColor,
                 height: 70,
                 width: ScreenSizes.width(context),

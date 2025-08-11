@@ -91,7 +91,7 @@ class _SignInScreenState extends State<SignInScreen> {
                 style: TextStyle(
                   fontWeight: FontWeight.w900,
                   color: Colors.white,
-                  fontSize: 24,
+                  fontSize: 34,
                 ),
               ),
               40.vSpace,
